@@ -1,0 +1,514 @@
+body{
+    background-color: #d7d7d7;
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+.srcll-one{
+    width: 430px;
+    height: 430px;
+    background-color: #efe0cb;
+    position: absolute;
+    top: -100px;
+    left: 146px;
+    border-radius: 50%;
+}
+.srcll-tow{
+    width: 150px;
+    height: 150px;
+    background-color: #efe0cb;
+    float: right;
+    border-radius: 50%;
+    margin: 230px 62px;
+}
+.rectangle{
+    width: 39px;
+    height: 310px;
+    background-color: #748493;
+    position: absolute;
+    right: 231px;
+    top: 230px;
+}
+.rectangle-tow :first-child{
+    width: 17px;
+    height: 90px;
+    background-color: #c3a06a;
+    float: right;
+    margin-right: 400px;
+}
+.rectangle-tow :last-child{
+    width: 17px;
+    height: 90px;
+    background-color: #c3a06a;
+    float: right;
+    margin-right: 10px;
+}
+.srcll-border-one{
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    float: right;
+    border-radius: 50%;
+    display: inline;
+    margin: -197px -395px;
+    border: 4px solid #748493;
+}
+
+
+
+.body{
+    width:1440px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.logo{
+    overflow: hidden;
+    padding: 80px 80px 0px;
+    margin-bottom: 0px;
+}
+.logo img{
+    border-radius: 50%;
+    border: 10px solid white;
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 10px 10px #edecec;
+}
+.logo-title{
+    float: left;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.logo-title h1{
+    font-size: 75px;
+    font-family: 'Cinzel', serif;
+    text-transform: capitalize;
+    margin: -20px;  
+}
+.logo-title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 30px -20px;
+    color: #040404;
+    letter-spacing: 4px;
+}
+
+
+
+header{ 
+    overflow: hidden; 
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -190px;
+}
+.icons{
+    width: 31%;
+    float: left;
+    padding: 120px 0px 0px 70px
+}
+.icons i{
+    display: block;
+    font-size: 30px;
+    height: 50px;
+    color: #435e7b;
+}
+.icons i h6{
+    display: inline;
+    margin-left: 20px;
+    color: #565656;
+}
+.about{
+    width: 58%;
+    float: left; 
+}
+ h3{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #c2a480;
+    margin-bottom: -14px;
+}
+.about p{
+    color: #898989;
+    text-transform: lowercase;
+    font-size: 23px;
+    word-spacing: 5px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+
+
+
+.section{
+    overflow: hidden;
+    margin: -150px 80px 0px ;
+    padding-bottom: 55px;
+}
+section{
+    width: 685px;
+    float: left;
+    padding: 0px 20px 130px;
+    background-color: #efe0cb;
+    border: 10px solid #e9dcca;
+}
+section h3{
+    margin: 60px 25px 50px;
+}
+section i{
+    float: left;
+    font-size: 25px;
+    margin: 10px 5px 10px 10px;
+    color: #455370;
+}
+section h4{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: -10px 50px;
+    color: #353f4d;
+}
+section h5{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #353f4d;
+    margin: 20px 0px 15px 55px;
+    word-spacing: 5px;
+    letter-spacing: 2px;  
+}
+section p{
+    color: #898989;
+    text-transform: lowercase;
+    font-size: 23px;
+    word-spacing: 15px;
+    margin: 0px 0px 55px 57px;
+    letter-spacing: 0.8px;
+}
+section span{
+    display: block;
+    word-spacing: 5px;
+    letter-spacing: initial;
+}
+
+
+
+aside{
+    width: 500px;
+    float: right;
+}
+aside h3{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 37px;
+}
+aside .skills h3{
+    margin-top: 35px;
+}
+aside .skills .skills-sercl{
+    margin: 40px 57px;
+    width: 100%;
+    display: flex;
+}
+/*aside .skills  .skills-sercl div{
+    border: 12px solid #314b66 ;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 11px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+aside .skills .para{
+    display: flex;
+    justify-content: center;
+    margin-top: -32px;
+    
+}
+aside .skills .para p{
+    margin: 0px 16px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+aside .languages{
+    padding: 0px 65px;
+}
+aside .languages h5{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #000000;
+    margin: 28px 0px 3px;
+}
+aside .languages div{   
+    width: 98%;
+    height: 20px;
+    margin-bottom: -20px;
+    background-image: linear-gradient(to right, #3c546e 290px , #ce9a68 10px);
+}
+aside .languages :nth-child(3){
+    background-image: linear-gradient(to right, #3c546e 250px , #ce9a68 10px);
+}
+aside .languages :nth-child(7){
+    background-image: linear-gradient(to right, #3c546e 302px , #ce9a68 10px);
+}
+
+aside .educaton{
+    padding: 0px 65px;
+    margin: 70px 0 0 0;
+}
+aside .educaton h4{
+    font-size: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #000000;
+    margin: 30px 0px -15px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+aside .educaton span{
+    margin-left: 68px;
+}
+aside .educaton p{
+    color: #898989;
+    text-transform: lowercase;
+    font-size: 23px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+}
+
+aside .footer{
+    padding: 0px 80px;
+    margin-top: 80px;
+}
+aside .footer p{
+    text-transform: lowercase;
+    font-size: 25px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+aside .footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+aside .footer-icons div{
+    width: 60px;
+    height: 60px;
+    background-color: #d2996c;
+    margin: 0px 6px;
+    border-radius:50% ;
+    z-index: 2;
+}
+aside .footer-icons i{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top:8px ;
+    color: seashell;    
+}
+
+
+.rectangle-three :first-child{
+    width: 17px;
+    height: 100px;
+    background-color: #c3a06a;
+    float: left;
+    margin: -200px 20px 0px 396px;
+}
+.rectangle-three :last-child{
+    width: 17px;
+    height: 100px;
+    background-color: #c3a06a;
+    float: left;
+    margin: -200px 0px 0px 422px;
+}
+.srcll-three{
+    width: 560px;
+    height: 560px;
+    background-color: #efe0cb;
+    position: absolute;
+    border-radius: 50%;
+    right: 170px;
+    bottom: -105px;
+    z-index: 1;
+}
+.srcll-border-tow{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 4px solid #748493;
+    position: absolute;
+    right: 22%;
+    bottom: -208px;
+    z-index: 2;
+}
+.srcll-for{
+    width: 100px;
+    height: 100px;
+    background-color: #748493;
+    border-radius: 50%;
+    position: absolute;
+    right: 650px;
+    bottom: 85px;
+    z-index: 2;
+}
+.point-1,.point-2,.point-3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   
+}
+.point-1 i,.point-2 i,.point-3 i{
+    color: #748493;
+    font-size: 15px;
+}
+.point-1 :nth-child(2),.point-2 :nth-child(2),.point-3 :nth-child(2){
+    margin-right: 145px;
+}
+.point-1 h6,.point-2 h6,.point-3 h6{
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin: 0px 5px;
+    color: #c39f7d;
+}
+.point-3{
+    position: absolute;
+    top: 770px;
+    right: 409px;
+}
+.point-2{
+    position: absolute;
+    top: 1053px;
+    right: 359px;
+}
+.point-2 :nth-child(2){
+    margin-right: 246px;
+}
+.point-1{
+    position: absolute;
+    bottom: 856px;
+    right: 367px;
+}
+.point-1 :nth-child(2){
+    margin-right: 227px;
+}
+
+aside .skills  .skills-sercl div{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 11px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    position: relative;
+    overflow: hidden;
+}
+aside .skills  .skills-sercl div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+aside .skills  .skills-sercl .s-50::after{
+    content: "50%";
+    position: absolute;
+    top: 35px;
+    left: 27px;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+}
+aside .skills  .skills-sercl .s-50::before{
+    background:
+    radial-gradient(white 53% ,transparent 0),
+    conic-gradient(#314b66 50% ,#cc9f66 0);
+}
+aside .skills  .skills-sercl .s-70::after{
+    content: "70%";
+    position: absolute;
+    top: 35px;
+    left: 27px;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+}
+aside .skills  .skills-sercl .s-70::before{
+    background:
+    radial-gradient(white 53% ,transparent 0),
+    conic-gradient(#314b66 70% ,#cc9f66 0);
+}
+aside .skills  .skills-sercl .s-75::after{
+    content: "75%";
+    position: absolute;
+    top: 35px;
+    left: 27px;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+}
+aside .skills  .skills-sercl .s-75::before{
+    background:
+    radial-gradient(white 53% ,transparent 0),
+    conic-gradient(#314b66 75% ,#cc9f66 0);
+}
+
+
+.bkg-top{
+    width: 100%;
+    height: 150px;
+    background-color: #d7d7d7;
+    position: absolute;
+    top: -150px;
+    z-index: 10;
+}
+.bkg-right{
+    width: 231px;
+    height: 100%;
+    background-color: #d7d7d7;
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+.bkg-bottom{
+    width: 100%;
+    height: 210px;
+    background-color: #d7d7d7;
+    position: absolute;
+    bottom: -210px;
+    z-index: 10;
+}
+.bkg-left{
+    width: 231px;
+    height: 100%;
+    background-color: #d7d7d7;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+}
